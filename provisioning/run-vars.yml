@@ -1,0 +1,16 @@
+# Uses environment variables passed to the container on `docker run`
+---
+
+parsoid_domains: "{{ lookup('env', 'PARSOID_DOMAINS') }}"
+
+# self-test configuration for CONTAINER_TEST mode
+nodejs_app_name: parsoid
+nodejs_app_host_address: 127.0.0.1
+nodejs_app_tcp_port: 8000
+nodejs_app_test_http_endpoint: /
+nodejs_app_test_http_status_code: 200
+nodejs_app_test_string: "<h3>Welcome to the <a"
+
+# install directory for universal from parent container
+nodejs_app_install_dir: /opt/{{ nodejs_app_name }}
+
