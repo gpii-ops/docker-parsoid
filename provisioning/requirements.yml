@@ -3,4 +3,5 @@
 # - src: https://github.com/idi-ops/ansible-nodejs
 #   name: nodejs
 - src: https://github.com/amatas/ansible-parsoid
+  version: v0.5.1
   name: parsoid
