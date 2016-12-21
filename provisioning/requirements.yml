@@ -2,5 +2,6 @@
 #   name: facts
 # - src: https://github.com/idi-ops/ansible-nodejs
 #   name: nodejs
-- src: https://github.com/amatas/ansible-parsoid
+- src: https://github.com/idi-ops/ansible-parsoid
+  version: v0.6.1
   name: parsoid
