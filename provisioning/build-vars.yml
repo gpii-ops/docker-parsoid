@@ -10,6 +10,9 @@ nodejs_app_test_http_endpoint: /
 nodejs_app_test_http_status_code: 200
 nodejs_app_test_string: "<h3>Welcome to the <a"
 nodejs_app_commands: []
+nodejs_app_git_repo: https://github.com/wikimedia/parsoid.git
+nodejs_app_git_branch: v0.6.1
+nodejs_app_start_script: "bin/server.js"
 
 # install directory for universal from parent container
 nodejs_app_install_dir: /opt/{{ nodejs_app_name }}
